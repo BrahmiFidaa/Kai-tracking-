@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lost Dog - Please Help</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <h1>🐶 LOST DOG</h1>
+
+    <img src="pic.jpeg" alt="Dog Photo" class="dog-img" />
+
+    <h2>Name: Kai</h2>
+    <p>Breed: Caniche Bichon</p>
+    <p>Very friendly. Not aggressive.</p>
+
+    <hr />
+
+    <h3>Owner Information</h3>
+    <p>Name: Brahmi Fidaa</p>
+    <p>Phone: +21629135012 </p>
+
+    <a href="tel:+21629135012" class="call-btn">📞 Call Owner</a>
+
+    <button onclick="sendLocation()" class="location-btn">
+      📍 Share My Location to Help
+    </button>
+
+    <p id="status"></p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
