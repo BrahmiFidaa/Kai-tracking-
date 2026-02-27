@@ -1,7 +1,7 @@
 // IMPORTANT: Replace these with your EmailJS values
-const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
-const SERVICE_ID = "YOUR_SERVICE_ID";
-const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
+const PUBLIC_KEY = "SdletbVCb0qGYN5wQ";
+const SERVICE_ID = "service_ma43wv4";
+const TEMPLATE_ID = "template_scdvrot";
 
 (function() {
   emailjs.init(PUBLIC_KEY);
